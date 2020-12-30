@@ -1,0 +1,197 @@
+ body{
+  background-color: #FD692B;
+  font-family: 'Philosopher', cursive;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.tab-bar a {
+  float: right;
+  display: block;
+  color: #FFFCFC;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.tab-bar a:hover {
+  border-radius: 8px;
+  background-color: #CE740A;
+}
+.tab-bar{
+  display: flex;
+  align-items: center;
+}
+.tab-bar input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ff910f;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('image/icon_sreach.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+#header img{
+  width: 45px;
+  padding: 25px;
+}
+#header{
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  color:#FFFCFC ;
+  text-align: center;
+  padding: 0 100px 200px 100px;
+}
+h1{
+  color: #016B8F;
+  font-size: 64px;
+  padding: 0px;
+  margin: 0px;
+}
+.title p{
+  font-family: 'Roboto Mono', monospace;
+  color:#FEDFB1;
+  width: 45%;
+  margin: auto;
+  text
+  font-size: 24px;
+}
+
+.Run{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-image: url("image/Frame 2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: space-around;
+}
+.Run img{
+  width: 60%;
+  position: relative;
+  top: -80px;
+  -webkit-animation: rotation 2s infinite linear;
+  }
+
+.Run div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+h2{
+  color:#016B8F;
+  text-align: center;
+  font-size: 64px;
+  padding: 0px;
+  margin: 0px;
+}
+.title_Sharing{
+  color:#FEDFB1 ;
+  text-align: center;
+  padding: 0 100x 50px 100x;
+}
+.title_Sharing p{
+  font-size: 24px;
+}
+footer{
+  position: relative;
+  width: 101%;
+  padding: 0px;
+  margin: 0px;
+  background-image: url("image/anhchantrang.png");
+  background-size: 100%;
+  text-align: center;
+  color: #B1FEB8;
+
+}
+footer p{
+  color: #FD692B;
+  margin: 0px;
+  font-size: 20px;
+}
+.message{
+  font-size: 24px;
+  color: #ff910f;
+}
+.contact{
+  color: #B1FEB8;
+  font-size: 18px;
+}
+.title_Sharing input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  background-color: ;
+  border: 1px solid #FDAB68;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+#story{
+  height: 200px;
+}
+.btn {
+  color: #ff910f;
+  font-size: 24px;
+  width: 10%;
+  background-color: rgb(252, 252, 252);
+  display: inline-block;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.sound{
+  font-size: 72px;
+  width: 200px;
+}
+
+.introduce p{
+  font-size: 20px;
+  display: inline-block;
+  color: #FFFCFC;
+  text-align: center;
+  padding: 0px 16px;
+  margin: 0px;
+  text-decoration: none;
+}
+.intro1{
+  background-color: #FAECD8;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.intro1 div p{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  padding: 0 100px;
+}
+.intro1 div h3{
+  color: #016B8F;
+  font-size: 40px;
+  text-align: center;
+}
+.intro2{
+  display: flex;
+}
+.intro2 img{
+  width: 17%;
+  padding: 0;
+  margin: 0;
+}
